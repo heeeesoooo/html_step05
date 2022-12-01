@@ -15,4 +15,13 @@ $(function () {
     $('.popup button').on('click', function () {
         $(this).parent().hide();
     });
-})
+
+    $('.leftBanner i').on('click', function () {
+        $('.leftBanner').toggleClass('on');
+    });
+
+    $('.rightBanner i').on('click', function () {
+        $('.rightBanner').toggleClass('on');
+    });
+
+});

@@ -9,7 +9,7 @@
     box-sizing: border-box;
     font-size: inherit;
     font-weight: inherit;
-    color: #444444;
+    color: inherit;
 }
 
 ul,
@@ -25,6 +25,12 @@ img {
     vertical-align: middle;
 }
 
+address,
+em,
+i {
+    font-style: normal;
+}
+
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
@@ -32,4 +38,6 @@ body {
     line-height: 1;
     /* 자간 */
     letter-spacing: -0.025em;
+
+    color: #444444;
 }
